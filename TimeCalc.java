@@ -45,11 +45,11 @@ public class TimeCalc {
 						{
 							if (newMinutes<10) //if the minutes is less than 10
 							{
-								System.out.println(newHours+":"+"0"+newMinutes); //printing of the hours
+								System.out.println("0"+newHours+":"+"0"+newMinutes); //printing of the hours
 							}
 							else //if the minutes isnt less than 10
 								{
-								System.out.println(newHours+":"+newMinutes); //printing of the hours
+								System.out.println("0"+newHours+":"+newMinutes); //printing of the hours
 								}
 						}
 		
