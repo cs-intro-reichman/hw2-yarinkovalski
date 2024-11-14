@@ -10,12 +10,10 @@ public class TimeCalc {
 
         int totalMinutes=0;
         int totalHours=0;
-        System.out.println(totalMinutes +" " +totalHours+" "+newHours+" "+newMinutes);
         totalMinutes = newHours*60 + newMinutes + minutesToAdd;
         totalHours = totalMinutes/60;
         newHours = totalHours%24;
         newMinutes= totalMinutes-(totalHours*60);
-        System.out.println(totalMinutes +" " +totalHours+" "+newHours+" "+newMinutes);
 
         if (newHours<12)  //if the hours is less than 12
 			{
