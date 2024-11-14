@@ -70,11 +70,11 @@ public class TimeCalc {
 						}
 				  else if (newMinutes<10) //if the hours doesnt equals to 12 and less than 10 and if the minutes is less than 10
 				   {
-					   System.out.println(newHours-12+":"+"0"+newMinutes); //printing of the hours
+					   System.out.println(newHours+":"+"0"+newMinutes); //printing of the hours
 				   }
 				   else //if the minutes isnt less than 10
 					   {
-					   System.out.println(newHours-12+":"+newMinutes); //printing of the hours
+					   System.out.println(newHours+":"+newMinutes); //printing of the hours
 					   }
 			   
 			}			
