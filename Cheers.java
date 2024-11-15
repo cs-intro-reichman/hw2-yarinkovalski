@@ -7,6 +7,7 @@ public class Cheers {
 	    
             int numberOfCrowd= Integer.parseInt("" + args[1]);
             String anLetter = "AEFHILMNORSX";
+            String smallAnLetter = "aefhilmnorsx";
         for (int i =0; i<=(args[0].length()-1); i++)
         {
                 char letter = args[0].charAt(i);
@@ -16,7 +17,7 @@ public class Cheers {
                 while (j<=(anLetter.length()-1) && flag==false)
                 {
                         letterPlace = args[0].indexOf((anLetter.charAt(j)));  
-                        if (letterPlace != -1 && letter==anLetter.charAt(j))
+                        if (letterPlace != -1 && (letter==anLetter.charAt(j) || letter==smallAnLetter.charAt(j)))
                                 {
                                         System.out.println("Give me an " + letter + ": " + letter + "!" );
                                         flag = true;
@@ -25,7 +26,7 @@ public class Cheers {
                 }
                 {
                 if (flag == false)
-                        System.out.println("Give me a  " + letter + ": " + letter + "!" );
+                        System.out.println("Give me a " + letter + ": " + letter + "!" );
                 }    
 
         }
