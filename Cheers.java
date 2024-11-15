@@ -25,7 +25,7 @@ public class Cheers {
                 }
                 {
                 if (flag == false)
-                        System.out.println("Give me a " + letter + ": " + letter + "!" );
+                        System.out.println("Give me a  " + letter + ": " + letter + "!" );
                 }    
 
         }
