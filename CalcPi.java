@@ -19,7 +19,6 @@ public class CalcPi {
 					sum = sum + (1.0/dividor);
 					flag = false;
 				}
-			System.out.println(sum);
 			dividor = dividor +2;
 
 		}
