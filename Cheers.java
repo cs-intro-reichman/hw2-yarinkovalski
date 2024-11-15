@@ -31,7 +31,7 @@ public class Cheers {
         }
 
         System.out.println("What does that spell?");
-        for (int j=0; j<=numberOfCrowd; j++)
+        for (int j=0; j<=numberOfCrowd-1; j++)
         {
                 System.out.println(args[0] + "!!!");
         }
