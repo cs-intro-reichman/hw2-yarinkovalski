@@ -19,6 +19,7 @@ public class Cheers {
                         letterPlace = args[0].indexOf((anLetter.charAt(j)));  
                         if (letterPlace != -1 && (letter==anLetter.charAt(j) || letter==smallAnLetter.charAt(j)))
                                 {
+                                        
                                         System.out.println("Give me an " + letter + ": " + letter + "!" );
                                         flag = true;
                                 }
@@ -26,7 +27,7 @@ public class Cheers {
                 }
                 {
                 if (flag == false)
-                        System.out.println("Give me a " + letter + ": " + letter + "!" );
+                        System.out.println("Give me a  " + letter + ": " + letter + "!" );
                 }    
 
         }
